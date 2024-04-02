@@ -1,0 +1,72 @@
+/* Важная часть */
+.popup__bg 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;  /* Скрываем фон и сам попап */
+    pointer-events: none; /* Запрещаем ему быть целью событий */
+    transition: 0.5s all;
+}
+.popup__bg.active /* При добавлении класса 'active' */
+{ 
+    opacity: 1; /* Показываем фон и попап */
+    pointer-events: all; /* Возвращаем события */
+    transition: 0.5s all;
+}
+.popup 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); /* Центрируем и масштабируем в 0 само окно */
+    background: #fff;
+    width: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    transition: 0.5s all;
+}
+.popup.active /* При добавлении класса 'active' */
+{
+    transform: translate(-50%, -50%) scale(1); /* Так же центрируем и плавно увеличиваем */
+    transition: 0.5s all;
+}
+/* Конец важной части */
+/* Далее код для стилизации формы */
+.close-popup 
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.mysite
+{
+    display: block;
+}
+.mysite h2
+{
+    margin: 0px 0px 20px 0px;
+}
+.mysite a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+.vechercom 
+{
+    font-size: 16px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #636363;
+  }
+  .vechercom:hover 
+  {
+    color: #cccccc;
+    background: #808080;
+  }

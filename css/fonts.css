@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(/fonts/Nunito/Light/Nunito-Light.woff2),
+        url(/fonts/Nunito/Light/Nunito-Light.woff),
+        url(/fonts/Nunito/Light/Nunito-Light.ttf),
+        url(/fonts/Nunito/Light/Nunito-Light.otf),
+        url(/fonts/Nunito/Light/Nunito-Light.eot)
+        url(/fonts/Nunito/Light/Nunito-Light.svg);
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url(/fonts/Nunito/Regular/Nunito-Regular.woff2),
+        url(/fonts/Nunito/Regular/Nunito-Regular.woff),
+        url(/fonts/Nunito/Regular/Nunito-Regular.ttf),
+        url(/fonts/Nunito/Regular/Nunito-Regular.otf),
+        url(/fonts/Nunito/Regular/Nunito-Regular.eot),
+        url(/fonts/Nunito/Regular/Nunito-Regular.svg);
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url(/fonts/Nunito/Medium/Nunito-Medium.woff2),
+        url(/fonts/Nunito/Medium/Nunito-Medium.woff),
+        url(/fonts/Nunito/Medium/Nunito-Medium.ttf),
+        url(/fonts/Nunito/Medium/Nunito-Medium.otf),
+        url(/fonts/Nunito/Medium/Nunito-Medium.eot),
+        url(/fonts/Nunito/Medium/Nunito-Medium.svg);
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url(/fonts/Nunito/SemiBold/Nunito-SemiBold.woff2),
+        url(/fonts/Nunito/SemiBold/Nunito-SemiBold.woff),
+        url(/fonts/Nunito/SemiBold/Nunito-SemiBold.ttf),
+        url(/fonts/Nunito/SemiBold/Nunito-SemiBold.otf),
+        url(/fonts/Nunito/SemiBold/Nunito-SemiBold.eot),
+        url(/fonts/Nunito/SemiBold/Nunito-SemiBold.svg);
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url(/fonts/Nunito/Bold/Nunito-Bold.woff2),
+        url(/fonts/Nunito/Bold/Nunito-Bold.woff),
+        url(/fonts/Nunito/Bold/Nunito-Bold.ttf),
+        url(/fonts/Nunito/Bold/Nunito-Bold.otf),
+        url(/fonts/Nunito/Bold/Nunito-Bold.eot),
+        url(/fonts/Nunito/Bold/Nunito-Bold.svg);
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
